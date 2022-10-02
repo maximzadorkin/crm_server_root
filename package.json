@@ -1,0 +1,22 @@
+{
+  "name": "crm_server_root",
+  "version": "1.0.0",
+  "description": "Root of CRM backend",
+  "main": "src/index.js",
+  "repository": "https://github.com/maximzadorkin/crm_server_root.git",
+  "author": "Maxim Zadorkin <m.a.zadorkin@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon --watch src src/index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "node-fetch": "^3.2.10",
+    "node-fetch-commonjs": "^3.2.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
